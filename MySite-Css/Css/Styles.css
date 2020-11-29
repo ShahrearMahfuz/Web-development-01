@@ -1,0 +1,134 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+hr{
+  border-top-style: dotted;
+  border:10px none none none;
+  border-top-width: thick;
+  width: 5%;
+  color: #40514E;
+  margin:100px auto;
+}
+h1{
+  font-size: 60px;
+  margin: 0 auto;
+  padding-top: 50px;
+  line-height: 2;
+  font-family: 'Sacramento', cursive;
+  color:  #66BFBF;
+}
+h2{
+  font-family:sans-serif ;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  color:  #66BFBF;
+  font-weight: normal;
+}
+h3{
+  color:  #11999E;
+}
+
+a{
+  color:  #11999E;
+}
+
+
+
+.topper{
+  background-color: #cffffe;
+  position: relative;
+  padding-top: 50px;
+}
+.bottom{
+  background-color: #66BFBF;
+  height: 150px;
+
+
+}
+.footer-link{
+  margin: 20px 30px 0px;
+  line-height: 3;
+  color: #EAF6F6;
+  display: inline-block;
+
+}
+
+.mypic{
+  background-color: white;
+  border-radius: 60%;
+
+}
+.profile{
+  line-height: 2;
+  margin: 50px auto;
+  text-align: center;
+  width: 25%;
+}
+.profile-disc{
+  margin: 0 auto;
+  width: 25%;
+}
+.contact-me{
+  width: 25%;
+  margin: 100px auto;
+  line-height: 2;
+}
+.soccer{
+  float: left;
+ background-color: white;
+ margin-right: 30px;
+ border-radius: 60%;
+
+}
+.helloworld{
+  float: right;
+  background-color: white;
+  margin-left: 30px;
+  border-radius: 60%;
+
+}
+
+
+.skill-row{
+  width:50%;
+  margin:100px auto;
+  line-height: 2;
+  text-align: left;
+
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 200px;
+  bottom: 300px
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
